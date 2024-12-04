@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+.container {
+    width: 60%;
+}
+.paragraphs p {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+.paragraphs p:nth-child(3n+1) { background-color: green; }
+.paragraphs p:nth-child(3n+2) { background-color: blue; }
+.paragraphs p:nth-child(3n+3) { background-color: red; }
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.name-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Paragraphes et Liste de Noms</title>
+    <link href="Paragraphe.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="paragraphs" id="paragraphs">
+        <p>Paragraphe 1</p>
+        <p>Paragraphe 2</p>
+        <p>Paragraphe 3</p>
+    </div>
+
+    <div class="name-section">
+        <input type="text" id="nameInput" placeholder="Entrez un nom">
+        <button onclick="addName()">Ajouter un nom</button>
+        <ul class="name-list" id="nameList"></ul>
+    </div>
+</div>
+
+<div class="controls">
+    <button onclick="addParagraph()">Ajouter un paragraphe</button>
+</div>
+<script src="Paragraphe.js"></script>
+</body>
+</html>
